@@ -1,10 +1,10 @@
 "*":
   editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
+    fontFamily: "Hack"
     invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+    tabLength: 4
+    showIndentGuide: true
   core:
     ignoredNames: [
       ".bundle"
@@ -15,8 +15,8 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "one-dark-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
